@@ -1,5 +1,5 @@
-import { View } from "react-native";
 import {gql, useLazyQuery } from "@apollo/client"
+import { View } from "react-native";
 import { DatePicker } from "../../components/DatePicker";
 
 const GET_EVENT_DATE = gql`
@@ -27,8 +27,6 @@ export const SelectEventScreen = () => {
         });
         
     }
-    
-    
     
     return (
         <View>

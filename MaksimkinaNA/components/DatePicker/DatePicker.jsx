@@ -17,6 +17,7 @@ export const DatePicker = ({onConfirm}) => {
                             {label: "1942", value: "1942"},
                             {label: "1943", value: "1943"},
                             {label: "1944", value: "1944"},
+                            {label: "1945", value: "1945"},
                         ],
                         [
                             {label: "1", value: "1"},
@@ -64,8 +65,8 @@ export const DatePicker = ({onConfirm}) => {
                             {label: "29", value: "29"},
                             {label: "30", value: "30"},
                             {label: "31", value: "31"},
-                        ]
-                    ]
+                        ],
+                    ];
                 }}
                 onClose = {() => {
                     setVisible(false);
@@ -74,4 +75,5 @@ export const DatePicker = ({onConfirm}) => {
             />
         </View>
     );
+    
 }

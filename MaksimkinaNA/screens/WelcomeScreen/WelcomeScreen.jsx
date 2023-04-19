@@ -1,5 +1,6 @@
-import { View, Text } from 'react-native';
 import{ gql, useQuery} from '@apollo/client'
+import { View, Text } from 'react-native';
+
 
 const GET_EVENT = gql`
     query getEvent {
